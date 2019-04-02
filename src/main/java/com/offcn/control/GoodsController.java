@@ -172,4 +172,11 @@ public class GoodsController {
         model.addAttribute("entity", entity);
         return "goods/upfile";
     }
+
+    /**
+     * 新增分支方法
+     */
+    public void fenzhi(){
+        System.out.println("fenzhi1新增方法");
+    }
 }
